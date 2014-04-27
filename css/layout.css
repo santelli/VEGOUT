@@ -25,12 +25,12 @@ header {
 
 nav {
     width: 1080px;
-    text-align:right;
     margin-left: auto;
     margin-right: auto;
 }
- nav img {
-    float: left;
+
+.align-right {
+    float: right;
 }
 
 .grid {
