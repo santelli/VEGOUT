@@ -1,0 +1,13 @@
+
+body {
+	font-family: Georgia, "Times New Roman",Times,serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Helvetica, arial, sans-serif;
+}

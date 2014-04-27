@@ -1,0 +1,45 @@
+
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 2em;
+	border: 1px solid #eee;
+    text-align:center;
+}
+
+nav li {
+    display:inline;
+}
+
+header {
+    width: 100%;
+    min-width: 1080px;
+    background-color: #eee;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+nav {
+    width: 1080px;
+    text-align:right;
+    margin-left: auto;
+    margin-right: auto;
+}
+ nav img {
+    float: left;
+}
+
+.grid {
+    width:900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gridItem {
+    float: left;
+    
+}
