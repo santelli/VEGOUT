@@ -11,3 +11,17 @@ h1 {
     font-weight: bold;
     font-family: Helvetica, arial, sans-serif;
 }
+
+.readMore {
+    font-weight: bold;
+    text-transform:uppercase;
+    color: red;
+}
+
+nav li {
+    font-family: Helvetica, arial, sans-serif;
+}
+
+nav a {
+    text-decoration:none;
+}
