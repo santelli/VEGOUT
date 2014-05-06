@@ -50,3 +50,7 @@ nav {
 .align-left {
     float:left;
 }
+
+article img {
+    clear: left;
+}
