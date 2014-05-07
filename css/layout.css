@@ -1,24 +1,27 @@
 
-article {
-	margin-top: 1em;
-	margin-right: auto;
-	margin-bottom: 1em;
-	margin-left: auto;
-	width: 90%;
-	max-width: 800px;
-	text-align:center;
-}
-
-nav li {
-    display:inline;
-}
-
 header {
     width: 100%;
     min-width: 1080px;
     background-color: #eee;
     margin-top: 0px;
     padding: 15px;
+}
+
+article {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	max-width: 800px;
+	text-align:center;
+    clear:both;
+    overflow:auto;
+    width:100%;
+    display: block;
+}
+
+nav li {
+    display:inline;
 }
 
 nav {
@@ -45,6 +48,7 @@ nav {
 .aside {
     width: 66%;
     text-align:left;
+    margin-left: 15px;
 }
 
 .align-left {
@@ -53,4 +57,5 @@ nav {
 
 article img {
     clear: left;
+    margin-right:15px;
 }
