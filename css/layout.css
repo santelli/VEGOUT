@@ -42,23 +42,53 @@ nav a:hover {
 }
 
 .grid {
-    width:900px;
+    width:727px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .gridItem {
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 239px;
+    height: 190px;
     text-align:center;
-    border-style: dashed;
-    border-width: 1px;
-    border-color: #555;
 }
 
+.grid a:visited {
+    color: inherit;
+}
+
+a.button {
+    height: 190px;
+    background-image: url("../img/green-sprite.jpg");
+    display: inline-block;
+}
+
+a#hover-state {
+    width: 239px;
+    background-position: 0px 0px;
+}
+
+a#hover-state:hover {
+    background-position: 0px -190px;
+}
+
+.grid a:hover {
+    color:white;
+}
+
+.top {
+    border-bottom: 1px dashed #DDD;
+}
+
+.inside {
+    border-right: 1px dashed #DDD;
+    border-left: 1px dashed #DDD;
+}
+    
+
 .aside {
-    width: 66%;
+    
     text-align:left;
     margin-left: 15px;
 }

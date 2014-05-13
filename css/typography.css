@@ -3,7 +3,7 @@ body {
 	font-family: Georgia, "Times New Roman",Times,serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	color: #222;
+	color: #676767;
 }
 
 h1 {
@@ -12,16 +12,30 @@ h1 {
     font-family: Helvetica, arial, sans-serif;
 }
 
+h2 {
+    font-size: 0.9em;
+    line-height: 1.3em;
+    font-weight:700;
+    text-transform:uppercase;
+    font-family:arialnarrow, sans-serif;
+}
+
+
+.grid p {
+    font-family: arialnarrow, sans-serif;
+}
+
 .readMore {
     font-weight: bold;
     text-transform:uppercase;
-    color: red;
+    color: #ec5d5d;
+    font-family: arialnarrow, sans-serif;
 }
 
 nav li {
     font-family: Helvetica, arial, sans-serif;
 }
 
-nav a {
+a {
     text-decoration:none;
 }
